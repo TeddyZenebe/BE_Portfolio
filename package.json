@@ -1,0 +1,30 @@
+{
+  "name": "be_portfolio",
+  "version": "1.0.0",
+  "description": "used to create backend connection to my portifolio ",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon index.js",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TeddyZenebe/BE_Portfolio.git"
+  },
+  "author": "Teddy zenebe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TeddyZenebe/BE_Portfolio/issues"
+  },
+  "homepage": "https://github.com/TeddyZenebe/BE_Portfolio#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "pg": "^8.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}

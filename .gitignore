@@ -1,2 +1,4 @@
 # Google App Engine generated folder
 appengine-generated/
+# dotenv environment variables file
+.env
