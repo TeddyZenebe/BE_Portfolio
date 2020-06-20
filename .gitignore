@@ -1,5 +1,13 @@
 # Google App Engine generated folder
 appengine-generated/
 # dotenv environment variables file
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# dotenv environment variables file
 .env
-node_modules
+.env.test
+# firebase
+/firebase
+package-lock.json
