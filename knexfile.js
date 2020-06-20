@@ -31,10 +31,10 @@ module.exports = {
       max: 10
     },
     migrations: {
-      directory:  './Database/migrations',
+      directory: __dirname + './Database/migrations',
     },
     seeds: {
-      directory: './Database/seeds',
+      directory: __dirname + './Database/seeds',
     },
   }
 
